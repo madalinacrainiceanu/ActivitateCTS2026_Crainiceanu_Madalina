@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SEM1cts_cm/SEM1cts_cm.iml" filepath="$PROJECT_DIR$/SEM1cts_cm/SEM1cts_cm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SEM1cts_cm/Seminar01/Seminar01.iml" filepath="$PROJECT_DIR$/SEM1cts_cm/Seminar01/Seminar01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SEM1cts_cm/Seminar02/Seminar02.iml" filepath="$PROJECT_DIR$/SEM1cts_cm/Seminar02/Seminar02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/sem1CTS.iml" filepath="$PROJECT_DIR$/.idea/sem1CTS.iml" />
+    </modules>
+  </component>
+</project>
