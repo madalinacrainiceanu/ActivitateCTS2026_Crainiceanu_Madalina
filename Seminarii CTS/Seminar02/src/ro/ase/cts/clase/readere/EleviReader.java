@@ -11,14 +11,14 @@ import java.util.Scanner;
 
 public class EleviReader extends AplicantReader{
     @Override
-    public List<Aplicant> readAplicanti(String file) throws FileNotFoundException {
-        Scanner input2 = new Scanner(new File(file));
+    public List<Aplicant> readAplicanti() throws FileNotFoundException {
+        Scanner input2 = new Scanner(new File(super.numeFisier));
         input2.useDelimiter(",|\n");
         List<Aplicant> elevi = new ArrayList<Aplicant>();
 
         while (input2.hasNext()) {
             Elev e=new Elev();
-            super.readAplicant(input2, e);
+            super.readAplicanti(input2, e);
             int clasa = input2.nextInt();
             String tutore = input2.next();
             e.setClasa(clasa);
@@ -28,5 +28,9 @@ public class EleviReader extends AplicantReader{
 
         input2.close();
         return elevi;
+    }
+
+    public EleviReader(String numeFisier) {
+        super(numeFisier);
     }
 }
